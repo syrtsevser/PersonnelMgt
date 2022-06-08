@@ -3,7 +3,7 @@
 
 Выполнено на C# в среде VS2019, на платформе .NET 4.7.2, по технологии WinForms. В качестве СУБД использует PostgreSQL.
 
-Используемые модули: npgsql, fody.
+Используемые модули: Npgsql, Costura.Fody.
 
 ## Установка
 Запустить PgAdmin4, импортировать БД из файла [\db\db.sql](https://github.com/syrtsevser/PersonnelMgt/blob/main/db/db.sql).
