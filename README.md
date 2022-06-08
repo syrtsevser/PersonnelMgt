@@ -10,7 +10,7 @@
 
 При создании новых пользователей, им необходимо выдать следующие права:
 ```
-REVOKE connect ON DATABASE personnel_mgt FROM PUBLIC;
+REVOKE CONNECT ON DATABASE personnel_mgt FROM PUBLIC;
 GRANT CONNECT ON DATABASE personnel_mgt TO new_user;
 GRANT ALL PRIVILEGES ON DATABASE personnel_mgt to new_user;
 ```
