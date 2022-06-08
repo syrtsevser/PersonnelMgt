@@ -19,3 +19,8 @@ GRANT ALL PRIVILEGES ON DATABASE personnel_mgt to new_user;
 Запустить сервер Postgre и исполняемый файл приложения.
 
 Использовать пользователя БД при авторизации (например, postgre или иной). В окне "Параметры" можно также изменить адрес сервера и наименование БД.
+
+## Примечения по разработке
+Класс [ConnDB](https://github.com/syrtsevser/PersonnelMgt/blob/main/src/ConnDB.cs) реализован по принципу "одиночка" и осуществлять связь с БД. 
+
+Класс [CommonFuncs](https://github.com/syrtsevser/PersonnelMgt/blob/main/src/CommonFuncs.cs) содержит общие методы, которые могут часто использоваться в остальном коде.
